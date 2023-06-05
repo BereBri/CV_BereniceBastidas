@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+.caja{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+}
+
+.titulo-cv{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 40px;
+    text-decoration: none;
+
+}
+.contenido{
+    padding: 20px 0 40px 0;
+}
+
+header{
+    background-color: antiquewhite;
+}
+
+h2{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #742929;
+}
+
+p{
+    padding: 0 20px 20px 20px;
+    font-size: 15px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse:inherit;
+    padding: 12px 35px 12px 35px;
+}
+
+th, td{
+    padding: 10px;
+    border: 0.5px solid#000000;
+}
+
+th {
+    background-color:  antiquewhite;
+    border: 0.5px solid #000000;
+}
+
+li{
+    padding: 10px;
+}
+
