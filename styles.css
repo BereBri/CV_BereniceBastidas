@@ -21,7 +21,6 @@ body {
     font-weight: bold;
     font-size: 40px;
     text-decoration: none;
-
 }
 .contenido{
     padding: 20px 0 40px 0;
@@ -49,8 +48,10 @@ h1 {
 
 table {
     width: 100%;
-    border-collapse:inherit;
+    border-collapse: inherit;
     padding: 12px 35px 12px 35px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 th, td{
@@ -63,7 +64,38 @@ th {
     border: 0.5px solid #000000;
 }
 
+th[colspan="2"], th[colspan="3"] {
+    text-align: center;
+}
+
 li{
     padding: 10px;
 }
 
+.proyecto1{
+    width: 10%;
+}
+
+.proyecto1 img {
+    width: 30%;
+    height: 200px;
+    left: 150px;
+    transition: transform 0.3s ease;
+
+}
+
+.proyecto1 img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+.proyecto1 {
+    width: 100%;
+    height: 200px;
+
+}
+
+.proyectoE {
+    text-align: center;
+}
